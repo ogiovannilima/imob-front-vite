@@ -1,6 +1,9 @@
 import React from 'react'
+import Button from '@mui/material/Button';
 
 export const Home: React.FC = () => {
-  return <h1>Home</h1>
+  return (
+    <Button variant="contained"> Olá Mundo</Button>
+  )
 }
 
